@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+nav{
+    width: 100%;
+    background-color: #2d3142;
+    display: flex;
+    /*justify-content: flex-end;/*coloca do lado direito*/				
+}
+ul{
+    list-style-type: none;
+    display: flex;
+	text-align: right;
+	
+    /*align-items: stretch;/*colocando um do lado do outro*/
+}
+li{
+    list-style: none;
+    display: flex;
+    align-items: center;/*centralizado em realação a altra do topo*/
+    height: 50px;
+	position: relative;
+}
+li a{
+    padding: 0 26px;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: #d36833;
+}
+li a:hover{
+    background-color: #d36833;
+    color: #fff;
+}
+.logo{
+	position: left;
+    padding: 5px;
+}
+
+.main_cta{
+    width: 100%;
+    background-image: url("../img/imgH1.jpg");
+    background-color: #2d3142;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover; /*adequa a imagem ao tamanho da caixa*/
+}
+.main_cta .main_cta_content{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main_cta .main_cta_content h1{
+    font-size: 3em;
+    color: #fff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main_cta .main_cta_content p{
+    font-size: 1.875em;
+    color: #fff;
+    font-weight: 300;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.main_cta .main_cta_content .btn{
+    background-color: #d36833;
+    color: #fff;
+    font-size: 0.8em;
+    padding: 10px 40px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;border-radius: 5px;
+}
+
+.main_cta .main_cta_content .main_cta_content_spacer{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 160px 40px;
+}
+
+
+/*--------------------------------*/
+.main_cardapio{
+    max-width: calc(1300px - 40px);
+    padding: 0 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /*espaçamento entre elementos*/
+    flex-wrap: wrap;/*quebrar o conteudo e colocar na linha de baixo*/
+}
+
+.main_cardapio .main_cardapio_header{
+    flex-basis: 100%;
+    margin: 30px 0;
+}
+
+.main_cardapio .main_cardapio_header h1{
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 1.8em;
+}
+.main_cardapio article{
+    opacity: 0.85;
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 30px;
+}
+.main_cadapio article:hover{
+    opacity: 1;
+}
+
+.main_cardapio article img{
+    width: 100%;
+}
+
+.main_cardapio article p{
+    margin: 10px 0;
+}
+
+.main_cardapio article .category{
+    font-size: 0.875em;
+    color: #d36833;
+}
+
+.main_caradapio article h2{
+    font-weight: 500;
+    font-size: 1.3em;
+}
+
+.main_caradapio article h2 a{
+    color: #333;
+}
+
+/* Exibir*/
+
+.main_marmita{
+	margin: auto;
+	width: 900px;
+	padding:20px;
+}
+
+.main_marmita_header{
+	margin: auto;
+	width: 890px;
+	padding:20px;
+}
+
+.main_marmita_content{
+	margin: auto;
+	width: 850px;
+	padding:20px;
+	text-align:justify;
+}
+
+h1{
+    color: #333;
+    margin-bottom: 5px;
+    font-size: 1.8em;
+}
+
+img:hover{
+   opacity: 0.9;
+}
+/* Rodapé */
+
+.rodape{
+	margin:0 auto;
+	width: 100%;
+	float: left;
+	display: block;
+	padding: 10px 10px 10px 100px;
+	background-color: #e0e0d1;
+}
+.rodapeA{
+	width:400px;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+}
+.rodapeB{
+	width:400px;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+}
+.rodapeC{
+	width:400px;
+	float: left;
+	display: inline-block;
+	padding: 10px;
+}
+.rodapeFim{
+	margin: auto;
+	width: 100%;
+	display: block;
+	padding: 20px;
+	background-color: #e0e0d1;
+	text-align:center;
+}
